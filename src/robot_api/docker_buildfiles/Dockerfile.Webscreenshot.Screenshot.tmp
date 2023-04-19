@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 
 ENV http_proxy $proxy
 ENV https_proxy $proxy
