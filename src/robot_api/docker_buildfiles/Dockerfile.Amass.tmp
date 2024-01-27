@@ -22,7 +22,7 @@ RUN if [ -n $dns ]; \
     fi;\
 	go install ./...
 
-FROM alpine:latest
+FROM alpine:3.19.1
 
 RUN if [ -n $dns ]; \
     then echo "nameserver $dns" >> /etc/resolv.conf;\
