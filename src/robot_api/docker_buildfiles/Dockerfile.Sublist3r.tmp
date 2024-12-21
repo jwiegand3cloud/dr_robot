@@ -1,4 +1,4 @@
-FROM python:3.4
+FROM python:3.14.0a3
 
 WORKDIR /home
 ENV http_proxy $proxy
