@@ -10,3 +10,5 @@ tqdm~=4.0
 dicttoxml~=1.0
 slackclient~=2.0
 idna-ssl~=1.1
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
